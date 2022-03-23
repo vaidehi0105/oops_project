@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <h3> Basic Linux Commands</h3>
+    </div>
+       <table>
+        
+        <tr>
+            <td>
+                <div class="popup" id="popup-1">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup1()">&times;</div>
+        <h3>pwd</h3>
+        <p>When you first open the terminal, you are in the home directory of your user. To know which directory you are in, you can use the “pwd” command. It gives us the absolute path, which means the path that starts from the root. </p>
+         
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-2">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup2()">&times;</div>
+        <h3>Ls</h3>
+        <p>The ls command is used to list files or directories in Linux and other Unix-based operating systems. </p>
+         
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-3">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup3()">&times;</div>
+        <h1>Top</h1>
+        <p>The top (table of processes) command shows a real-time view of running processes in Linux and displays kernel-managed tasks. </p>
+         
+        </div>
+        </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="popup" id="popup-4">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup4()">&times;</div>
+        <h1>Mkdir</h1>
+        <p>The mkdir command in Linux/Unix allows users to create or make new directories. mkdir stands for “make directory.” </p>
+         
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-5">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup5()">&times;</div>
+        <h1>Rm</h1>
+        <p>rm stands for remove here. rm command is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX. </p>
+         
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-6">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup6()">&times;</div>
+        <h1>Rmdir</h1>
+        <p>rmdir command is used remove empty directories from the filesystem in Linux. The rmdir command removes each and every directory specified in the command line only if these directories are empty. 
+
+        </p>
+         
+        </div>
+        </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="popup" id="popup-7">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup7()">&times;</div>
+        <h1>Chmod</h1>
+        <p>In Unix and Unix-like operating systems, chmod is the command and system call used to change the access permissions of file system objects, sometimes known as modes. </p>
+         
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-8">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup8()">&times;</div>
+        <h1>Cp</h1>
+        <p>In computing, cp is a command in various Unix and Unix-like operating systems for copying files and directories.</p>
+         
+        
+        </div>
+        </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="popup" id="popup-9">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup9()">&times;</div>
+        <h1>cd</h1>
+        <p>The cd (“change directory”) command is used to change the current working directory in Linux and other Unix-like operating systems</p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-10">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup10()">&times;</div>
+        <h1>Cat</h1>
+        <p>The cat command is a utility command in Linux. One of its most commonly known usages is to print the content of a file onto the standard output stream. </p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-11">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup10()">&times;</div>
+        <h1>Mv</h1>
+        <p>mv is a Unix command that moves one or more files or directories from one place to another. </p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-12">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup12()">&times;</div>
+        <h1>Find</h1>
+        <p>In Unix-like and some other operating systems, find is a command-line utility that locates files based on some user-specified criteria and  prints the pathname of each matched object </p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-13">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup13()">&times;</div>
+        <h1>Du</h1>
+        <p>The Linux “du” (Disk Usage) is a standard Unix/Linux command, used to check the information of disk usage of files and directories on a machine. </p>
+         
+        
+        </div>
+        </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="popup" id="popup-14">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup14()">&times;</div>
+        <h1>Kill</h1>
+        <p>In Linux, the kill command (located inside the /bin/kill) can be defined as a built-in command. It is used for manually terminating the processes. </p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-15">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup15()">&times;</div>
+        <h1>Chown</h1>
+        <p>The command chown, an abbreviation of change owner, is used on Unix and Unix-like operating systems to change the owner of file system files, directories. </p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-16">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup16()">&times;</div>
+        <h1>Tar</h1>
+        <p>The Linux "tar" stands for tape archive, is used to create Archive and extract the Archive files.  </p>
+         
+        
+        </div>
+        </div>
+            </td>
+            <td>
+                <div class="popup" id="popup-17">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="content">
+        <div class="close-btn" onclick="togglePopup17()">&times;</div>
+        <h1>Sudo</h1>
+        <p>Sudo stands for either "substitute user do" or "super user do" and it allows you to elevate your current user account to have root privileges temporarily. This is different from “su” which is not temporary.</p>
+         
+        
+        </div>
+        </div>
+            </td>
+          
+            
+        </tr>
+    </table>
+    
+    <div class="red">
+
+        <table>
+            <tr>
+                
+                <td> <button onclick="togglePopup1()">pwd</button></td>
+                <td> <button onclick="togglePopup2()">Ls</button></td>
+    
+                <td> <button onclick="togglePopup3()">Top</button></td>
+                <td> <button onclick="togglePopup4()">Mkdir</button></td>
+                
+                
+                
+                
+            </tr>
+            <tr>
+                
+                <td> <button onclick="togglePopup5()">Rm</button></td>
+                <td> <button onclick="togglePopup6()">Rmdir</button></td>
+                
+                <td> <button onclick="togglePopup7()">Chmod</button></td>
+                <td> <button onclick="togglePopup8()">cp</button></td>
+                
+                
+                
+                
+            </tr>
+            
+            <tr>
+                
+                <td> <button onclick="togglePopup9()">cd</button></td>
+                <td> <button onclick="togglePopup10()">Cat</button></td>
+                
+                <td> <button onclick="togglePopup11()">Mv</button></td>
+                <td> <button onclick="togglePopup12()">Find</button></td>
+                
+                
+                
+                
+            </tr>
+            <tr >
+                <td> <button onclick="togglePopup13()">Du</button></td>
+                <td> <button onclick="togglePopup14()">Kill</button></td>
+                <td> <button onclick="togglePopup15()">Chown</button></td>
+                <td> <button onclick="togglePopup16()">Tar</button></td>
+                
+                
+                
+            </tr>
+            <tr> <td> <button onclick="togglePopup17()">Sudo</button></td></tr>
+    </table>
+    
+    
+    <!-- </div> -->
+</div>
+</body>
+</html>
